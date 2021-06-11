@@ -26,3 +26,10 @@ $ git branch
 ```sh
 $ git checkout develop
 ```
+##para pushear a la branch
+```sh
+git checkout -b my_new_branch
+```
+```sh
+git commit
+```
