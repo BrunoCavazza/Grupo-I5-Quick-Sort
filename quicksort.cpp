@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void quicksort(int lista[], int limite_izq, int limite_der){
+void qs(int lista[], int limite_izq, int limite_der){
 	int izq, der, temporal, pivote;
 	
 	izq = limite_izq;
@@ -18,15 +18,13 @@ void quicksort(int lista[], int limite_izq, int limite_der){
 			izq++;
 			der--;
 		}
-			
-		
 	} while(izq<=der);
-	if(limite_izq<der){quicksort(lista,limite_izq,der);}
-	if(limite_der<izq){quicksort(lista,izq,limite_der);}
+	if(limite_izq<der){qs(lista,limite_izq,der);}
+	if(limite_der>izq){qs(lista,izq,limite_der);}
 }
 
 void quicksort(int lista[], int n){
-	quicksort(lista,0,n-1);
+	qs(lista,0,n-1);
 }
 	
 int main(int argc, const char * argv[]){
@@ -34,7 +32,7 @@ int main(int argc, const char * argv[]){
 	int size = sizeof(lista)/sizeof(int);
 	
 	printf("Esta es la lista desordenada \n");
-	
+
 	for(int i=0; i<size; i++){
 		printf("%d", lista[i]);
 		if(i<size-1)
