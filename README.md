@@ -9,4 +9,5 @@
 <p>· Rodriguez Luna Mariel Valentina</p>
 <p>· Sequeira Thiago</p>
 
-<img src="https://cdn.discordapp.com/attachments/852993105257955378/853407020689391656/Code.png">
+<img src="https://imgur.com/a/Nz3GwK9">
+
