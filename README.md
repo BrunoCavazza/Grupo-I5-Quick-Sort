@@ -9,5 +9,6 @@
 <p>· Rodriguez Luna Mariel Valentina</p>
 <p>· Sequeira Thiago</p>
 
+<h2>Preview del codigo fuente QuickSort.</h2>
 <img src="https://imgur.com/xnBd8Tx.jpeg">
 
